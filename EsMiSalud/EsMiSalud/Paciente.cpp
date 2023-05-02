@@ -131,8 +131,9 @@ void Paciente::mostrar_suma(J_Principal* principal_1, int _x, int _y)
 					else
 					{
 						System::Console::SetCursorPosition(_x - 4, _y + 5);
-						cout << "No logrado";
 						principal_1->set_canti_vidas(0);
+						cout << "No logrado";
+						acti = false;
 						break;
 					}
 				case '2':
@@ -151,6 +152,7 @@ void Paciente::mostrar_suma(J_Principal* principal_1, int _x, int _y)
 						System::Console::SetCursorPosition(_x - 4, _y + 5);
 						cout << "No logrado";
 						principal_1->set_canti_vidas(0);
+						acti = false;
 						break;
 					};
 				case '3':
@@ -158,7 +160,6 @@ void Paciente::mostrar_suma(J_Principal* principal_1, int _x, int _y)
 					{
 						System::Console::SetCursorPosition(_x - 4, _y + 5);
 						cout << "Parte de la cura";
-						
 						principal_1->Borrar();
 						principal_1->set_x(38);
 						principal_1->set_y(3);
@@ -170,6 +171,7 @@ void Paciente::mostrar_suma(J_Principal* principal_1, int _x, int _y)
 						System::Console::SetCursorPosition(_x - 4, _y + 5);
 						cout << "No logrado";
 						principal_1->set_canti_vidas(0);
+						acti = false;
 						break;
 					}
 

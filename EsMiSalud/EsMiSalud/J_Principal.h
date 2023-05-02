@@ -7,7 +7,7 @@ class ArrVida;
 
 class J_Principal : public Entidad
 {
-private:
+protected:
 	int canti_vidas;
 	float conta;
 public:

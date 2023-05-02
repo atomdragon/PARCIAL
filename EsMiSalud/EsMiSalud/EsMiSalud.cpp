@@ -73,7 +73,12 @@ int main()
         if (Personaje1->get_canti_vidas() == 0)
         {
             imprimir_you_lose();
-            break;
+            Personaje1->set_x(38);
+            Personaje1->set_y(3);
+            ConsoleColor::White;
+            Clini_EsMiSa->Dibujar_clinica();
+            Personaje1->set_canti_vidas(3);
+        
         }
 
         _sleep(30);
