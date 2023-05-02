@@ -1,0 +1,2 @@
+D:\Basura\Algoritmos\EsMiSalud\EsMiSalud\x64\Debug\EsMiSalud.vcxproj.AssemblyReference.cache
+D:\Basura\Algoritmos\EsMiSalud\EsMiSalud\x64\Debug\EsMiSalud.vcxproj.SuggestedBindingRedirects.cache
